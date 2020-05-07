@@ -1,0 +1,17 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: xxhash
+Source: https://github.com/Cyan4973/xxHash
+Comment: The library files `xxhash.c` and `xxhash.h` are BSD licensed.
+         The utility `xxhsum` is GPL licensed.
+
+Files: *
+Copyright: 2012-2014 Yann Collet
+License: BSD-2-clause
+
+Files: xxhsum.c
+Copyright: 2012-2014 Yann Collet
+License: GPL-2
+
+Files: debian/*
+Copyright: 2020 Alexander Varchenko
+License: GPL-2
